@@ -1,10 +1,17 @@
 {
-  "name": "error-handler",
-  "version": "1.0.0",
+  "name": "error-handler-cli",
+  "version": "1.1.0",
   "description": "An Express.js middleware for custom error handling",
   "main": "index.js",
-  "keywords": ["express", "middleware", "error-handler"],
+  "keywords": [
+    "express",
+    "middleware",
+    "error-handler"
+  ],
   "author": "Aashish Timsina",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "error-handler-cli": "^1.0.0",
+    "express": "^4.21.2"
+  }
 }
-

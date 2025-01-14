@@ -16,7 +16,7 @@ An easy-to-use custom error handler middleware for Express.js. This package prov
 Install the package via npm:
 
 ```sh
-npm install custom-error-handler
+npm install error-handler-cli
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install custom-error-handler
 ### 1. Import the Middleware
 
 ```javascript
-const { CustomError, errorHandler } = require('custom-error-handler');
+const { CustomError, errorHandler } = require('error-handler-cli');
 ```
 
 ### 2. Create an Express Application
@@ -33,7 +33,7 @@ Here's an example of how to use the custom error handler in an Express.js app:
 
 ```javascript
 const express = require('express');
-const { CustomError, errorHandler } = require('custom-error-handler');
+const { CustomError, errorHandler } = require('error-handler-cli');
 
 const app = express();
 
